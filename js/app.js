@@ -61,13 +61,19 @@ Hours: 9am - 10pm Sun - Sat
 Append this element to the div with the id of 
 "text4"
 */
-
+newHours = document.createElement("div");
+newHours.id = "hours4";
+newHours.innerHTML = "Hours: 9am - 10pm Sun - Sat";
+text4.appendChild(newHours);
 /*Create a paragraph element with an id of "update4". Inside this paragraph element, give it the following info:
 
 I'd leave a blank space for this oxtail soup!
 
 Append this element to the div id of "comment4"*/
-
+var oxUpdate = document.createElement("p");
+oxUpdate.id = "update4";
+oxUpdate.innerHTML = "I'd leave a blank space for this oxtail soup!";
+comment4.appendChild(oxUpdate);
 
 //5. The Death Star Cafe
 /*The empire strikes back with a new and improved oxtail soup offering. Help the dark side win back customers by executing the following commands:*/
