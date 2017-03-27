@@ -50,7 +50,10 @@ Address: 1620 N. School St, Honolulu, HI 96817
 
 Append this element to the div with the id of 
 "text4"*/
-
+var newAddy = document.createElement("div");
+newAddy.id = "addy4";
+newAddy.innerHTML = "Address: 1620 N. School St, Honolulu, HI 96817";
+text4.appendChild(newAddy);
 /*Create a new div element with an id of "hours4". Inside this div element, give it the following info:
 
 Hours: 9am - 10pm Sun - Sat
